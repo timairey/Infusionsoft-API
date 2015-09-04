@@ -1,0 +1,3 @@
+<$HeadingClass>
+	$Heading
+</$HeadingClass>

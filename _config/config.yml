@@ -1,0 +1,9 @@
+SiteTree:
+  extensions:
+    - InfusionAPI
+SiteConfig:
+  extensions:
+    - InfusionKeyField
+Page_Controller:
+  extensions:
+    - InfusionSoftAPI_Controller

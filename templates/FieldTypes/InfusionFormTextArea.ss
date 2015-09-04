@@ -1,0 +1,1 @@
+<p class="field"><input type="text" name="InfusionField[$ID]" class="<% loop FormClasses %>$Name <% end_loop %>" id="InfusionSoftForm_$Name" required="required" aria-required="true" placeholder="$Name"></p>
