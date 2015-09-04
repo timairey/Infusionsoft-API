@@ -116,8 +116,6 @@ class InfusionSoftAPI_Controller extends DataExtension {
         ));
         
         $result=$client->send($call);
-        echo '<pre>' . print_r($result1, true) . '</pre>';
-        die();
                      
         if($result1->faultCode()) {
             mail("tim@newedge.co.uk", "Infusionsoft Integration Failure", print_r($result, true) . ', Contact: ' . print_r($contact, true));
